@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>The Council's Expense Tracker</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+    <script src="./app.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: #1976d2; }
+    </style>
+</head>
+<body ng-controller="MainController">
+    <h1>{{ title }}</h1>
+    <p>{{ message }}</p>
+    <button ng-click="changeMessage()">Click Me</button>
+</body>
+</html>
